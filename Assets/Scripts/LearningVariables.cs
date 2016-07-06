@@ -36,6 +36,12 @@ public class LearningVariables : MonoBehaviour {
 
         answer = 8 / 4;
         Debug.Log(answer);
+
+        // Add two numbers to using variables
+        int n1 = 8;
+        int n2 = 9;
+        int answerForVariables = n1 + n2;
+        Debug.Log(answerForVariables);
     }
 
     void Update () {
