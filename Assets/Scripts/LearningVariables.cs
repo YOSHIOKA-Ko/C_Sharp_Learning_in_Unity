@@ -42,6 +42,21 @@ public class LearningVariables : MonoBehaviour {
         int n2 = 9;
         int answerForVariables = n1 + n2;
         Debug.Log(answerForVariables);
+
+        // Shorten operations
+        int answerForShortOperation;
+        answerForShortOperation = 10;
+        answerForShortOperation += 5;
+        Debug.Log(answerForShortOperation);
+
+        answerForShortOperation -= 5;
+        Debug.Log(answerForShortOperation);
+
+        answerForShortOperation *= 2;
+        Debug.Log(answerForShortOperation);
+
+        answerForShortOperation /= 10;
+        Debug.Log(answerForShortOperation);
     }
 
     void Update () {
