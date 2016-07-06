@@ -57,6 +57,15 @@ public class LearningVariables : MonoBehaviour {
 
         answerForShortOperation /= 10;
         Debug.Log(answerForShortOperation);
+
+        // Show increment or decrement variables
+        int answerForIncrement = 10;
+        answerForIncrement++;
+        Debug.Log(answerForIncrement);
+
+        int answerForDecrement = 10;
+        answerForDecrement--;
+        Debug.Log(answerForDecrement);
     }
 
     void Update () {
