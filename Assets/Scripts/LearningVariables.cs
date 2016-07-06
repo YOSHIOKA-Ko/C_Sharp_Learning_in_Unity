@@ -79,6 +79,12 @@ public class LearningVariables : MonoBehaviour {
         string str2ForShortOperation = str2;
         str1ForShortOperation += str2ForShortOperation;
         Debug.Log(str1ForShortOperation);
+
+        // Join string and number
+        string strForJoinNumber = str1;
+        int numJoinForString = 123;
+        string messageForJoinedStringAndNumber = strForJoinNumber + numJoinForString;
+        Debug.Log(messageForJoinedStringAndNumber);
     }
 
     void Update () {
