@@ -66,6 +66,13 @@ public class LearningVariables : MonoBehaviour {
         int answerForDecrement = 10;
         answerForDecrement--;
         Debug.Log(answerForDecrement);
+
+        // Join two strings
+        string str1 = "happy ";
+        string str2 = "birthday";
+        string message;
+        message = str1 + str2;
+        Debug.Log(message);
     }
 
     void Update () {
