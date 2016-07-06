@@ -22,6 +22,20 @@ public class LearningVariables : MonoBehaviour {
         string userName;
         userName = "YOSHIOKA Ko57";
         Debug.Log(userName);
+
+        // Do four arithmetic operations, and show to Console view
+        int answer;
+        answer = 1 + 2;
+        Debug.Log(answer);
+
+        answer = 3 - 4;
+        Debug.Log(answer);
+
+        answer = 5 * 6;
+        Debug.Log(answer);
+
+        answer = 8 / 4;
+        Debug.Log(answer);
     }
 
     void Update () {
