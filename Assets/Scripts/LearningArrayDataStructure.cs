@@ -27,5 +27,15 @@ public class LearningArrayDataStructure : MonoBehaviour {
             }
         }
         Debug.Log("Fix for loop");
+
+        // Calculate averages using length of array
+        int sum = 0;
+
+        for (int i = 0; i < points.Length; i++) {
+            sum += points[i];
+        }
+
+        int average = sum / points.Length;
+        Debug.Log(average);
     }
 }
