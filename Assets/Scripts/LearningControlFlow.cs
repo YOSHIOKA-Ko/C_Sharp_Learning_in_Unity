@@ -32,5 +32,27 @@ public class LearningControlFlow : MonoBehaviour {
         for (int i = 0; i < 5; i++) {
             Debug.Log(i);
         }
+        Debug.Log("Fix for loop");
+
+        for (int i = 0; i < 10; i += 2) {
+            Debug.Log(i);
+        }
+        Debug.Log("Fix for loop");
+
+        for (int i = 3; i <= 5; i++) {
+            Debug.Log(i);
+        }
+        Debug.Log("Fix for loop");
+
+        for (int i =3; i >=0; i--) {
+            Debug.Log(i);
+        }
+        Debug.Log("Fix for loop");
+
+        int oneToTenSum = 0;
+        for (int i = 0; i <= 10; i++) {
+            oneToTenSum += i;
+        }
+        Debug.Log(oneToTenSum);
     }
 }
