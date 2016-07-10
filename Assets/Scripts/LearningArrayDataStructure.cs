@@ -16,5 +16,16 @@ public class LearningArrayDataStructure : MonoBehaviour {
         for (int i = 0; i < 5; i++) {
             Debug.Log(array[i]);
         }
+        Debug.Log("Fix for loop");
+
+        // Shorten structure of array
+        int[] points = {83, 99, 52, 93, 15};
+
+        for (int i = 0; i < points.Length; i++) {
+            if (points[i] > 90) {
+                Debug.Log(points[i]);
+            }
+        }
+        Debug.Log("Fix for loop");
     }
 }
