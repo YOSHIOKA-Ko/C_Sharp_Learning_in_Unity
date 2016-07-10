@@ -17,5 +17,15 @@ public class LearningControlFlow : MonoBehaviour {
         } else {
             Debug.Log("Defense!");
         }
+
+        // Conditional of additional if
+        int warriorStamina = 180;
+        if (warriorStamina <= 50) {
+            Debug.Log("Escape!");
+        } else if (warriorStamina >= 200) {
+            Debug.Log("Attack!");
+        } else {
+            Debug.Log("Defense!");
+        }
     }
 }
