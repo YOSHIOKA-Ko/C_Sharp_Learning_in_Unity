@@ -24,5 +24,11 @@ public class LearningMethods : MonoBehaviour {
         int answer;
         answer = Add(2, 3);
         Debug.Log(answer);
+
+        // Using variables, find the answer
+        int num1 = 5;
+        int num2 = 10;
+        answer = Add(num1, num2);
+        Debug.Log(answer);
     }
 }
