@@ -7,7 +7,12 @@ public class LearningMethods : MonoBehaviour {
         Debug.Log("Hello");
     }
 
+    void CallName(string name) {
+        Debug.Log("Hello" + name);
+    }
+
     void Start () {
         SayHello();
+        CallName("Tracer");
     }
 }
