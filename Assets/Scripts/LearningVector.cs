@@ -8,5 +8,13 @@ public class LearningVector : MonoBehaviour {
         playerPosition.x += 8.0f;
         playerPosition.y += 5.0f;
         Debug.Log(playerPosition);
+
+        Vector2 startPosition = new Vector2(2.0f, 1.0f);
+        Vector2 endPosition = new Vector2(8.0f, 5.0f);
+        Vector2 direction = endPosition - startPosition;
+        Debug.Log(direction);
+
+        float length = direction.magnitude;
+        Debug.Log(length);
     }
 }
