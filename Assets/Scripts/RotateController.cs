@@ -11,5 +11,7 @@ public class RotateController : MonoBehaviour {
         }
 
         transform.Rotate(0, this.rotateSpeed, 0);
+
+        this.rotateSpeed *= .96f;
     }
 }
