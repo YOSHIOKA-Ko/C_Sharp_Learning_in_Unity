@@ -4,6 +4,7 @@ using System.Collections;
 public class RotateController : MonoBehaviour {
 
     float rotateSpeed = 0;
+    float stopSpeed = .1f;
 
     void Update () {
         if(Input.GetMouseButtonDown(0)) {
@@ -12,6 +13,10 @@ public class RotateController : MonoBehaviour {
 
         transform.Rotate(0, this.rotateSpeed, 0);
 
-        this.rotateSpeed *= .96f;
+        if(this.rotateSpeed <= this.stopSpeed) {
+            this.rotateSpeed = 0;
+        } else {
+            this.rotateSpeed *= .96f;
+        }
     }
 }
