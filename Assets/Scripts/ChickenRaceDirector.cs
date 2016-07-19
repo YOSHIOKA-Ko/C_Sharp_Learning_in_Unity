@@ -2,14 +2,16 @@
 using System.Collections;
 using UnityEngine.UI;
 
-class ChickenRaceDirector : MonoBehaviour {
+class ChickenRaceDirector : MonoBehaviour
+{
 
-    public GameObject runner;
-    public GameObject goalSign;
-    public GameObject distance;
+    [SerializeField] Transform runner;
+    [SerializeField] Transform goalSign;
+    [SerializeField] Text distance;
 
-    void Update () {
-        float length = this.goalSign.transform.position.x - this.runner.transform.position.x;
-        this.distance.GetComponent<Text>().text = "ゴールまで" + length.ToString("F2") + "m";
+    void Update()
+    {
+        float length = goalSign.position.x - runner.position.x;
+        distance.text = "ゴールまで" + length.ToString("F2") + "m";
     }
 }

@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class LearningArrayDataStructure : MonoBehaviour {
+public class LearningArrayDataStructure : MonoBehaviour
+{
 
-    void Start () {
+    void Start()
+    {
         // Show five element using array
         int[] array = new int[5];
 
@@ -13,16 +15,19 @@ public class LearningArrayDataStructure : MonoBehaviour {
         array[3] = 15;
         array[4] = 3;
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i++)
+        {
             Debug.Log(array[i]);
         }
         Debug.Log("Fix for loop");
 
         // Shorten structure of array
-        int[] points = {83, 99, 52, 93, 15};
+        int[] points = { 83, 99, 52, 93, 15 };
 
-        for (int i = 0; i < points.Length; i++) {
-            if (points[i] > 90) {
+        for (int i = 0; i < points.Length; i++)
+        {
+            if (points[i] > 90)
+            {
                 Debug.Log(points[i]);
             }
         }
@@ -31,7 +36,8 @@ public class LearningArrayDataStructure : MonoBehaviour {
         // Calculate averages using length of array
         int sum = 0;
 
-        for (int i = 0; i < points.Length; i++) {
+        for (int i = 0; i < points.Length; i++)
+        {
             sum += points[i];
         }
 

@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class LearningVariables : MonoBehaviour {
+public class LearningVariables : MonoBehaviour
+{
 
-    void Start () {
+    void Start()
+    {
         // Show "Hello World" to console view
         Debug.Log("Hello World");
 
@@ -87,7 +89,8 @@ public class LearningVariables : MonoBehaviour {
         Debug.Log(messageForJoinedStringAndNumber);
     }
 
-    void Update () {
+    void Update()
+    {
 
     }
 }

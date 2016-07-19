@@ -1,22 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class LearningMethods : MonoBehaviour {
+public class LearningMethods : MonoBehaviour
+{
 
-    void SayHello() {
+    void SayHello()
+    {
         Debug.Log("Hello");
     }
 
-    void CallName(string name) {
+    void CallName(string name)
+    {
         Debug.Log("Hello" + name);
     }
 
-    int Add(int a, int b){
+    int Add(int a, int b)
+    {
         int c = a + b;
         return c;
     }
 
-    void Start () {
+    void Start()
+    {
         SayHello();
         CallName("Tracer");
 

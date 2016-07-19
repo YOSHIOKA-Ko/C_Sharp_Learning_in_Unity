@@ -489,7 +489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runner: {fileID: 897411877}
   goalSign: {fileID: 107902468}
-  distance: {fileID: 1764304327}
+  distance: {fileID: 1764304329}
 --- !u!4 &1148661518
 Transform:
   m_ObjectHideFlags: 0
